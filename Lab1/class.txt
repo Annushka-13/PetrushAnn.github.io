@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Сотрудник" as P {
+Microsoft Word
+Создать шаблон документа (Образец, Требования к оформлению)
+}
+hide circle
+@enduml
