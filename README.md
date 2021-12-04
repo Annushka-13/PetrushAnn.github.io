@@ -1,10 +1,10 @@
 # Отчеты по лабораторным работам
 
-## ► Отчет по [лабораторным работам 1-3](https://github.com/Annushka-13/PetrushAnn.github.io/wiki/Labs-1-3)
+## Отчет по [лабораторным работам 1-3](https://github.com/Annushka-13/PetrushAnn.github.io/wiki/Labs-1-3)
 
-## ► Отчет по [лабораторным работам 4-6]()
+## Отчет по [лабораторным работам 4-6]()
 
-# ► Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam08-3) и [проверенный]()
+# Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam08-3) и [проверенный]()
 
 # [Деловая игра]()
 
