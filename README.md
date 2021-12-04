@@ -8,4 +8,4 @@
 
 # [Деловая игра]()
 
-# студента группы [ИДБ-18-08](https://docs.google.com/spreadsheets/d/1bKTqLJ_fwtBglIUNzz2MdDjdNV1_TjivVgGB1mNEjXw/edit?usp=sharing) Петруша А.О.
+# студента группы [ИДБ-18-08](https://docs.google.com/spreadsheets/d/1bKTqLJ_fwtBglIUNzz2MdDjdNV1_TjivVgGB1mNEjXw/edit#gid=1451005473&range=B75) Петруша А.О.
