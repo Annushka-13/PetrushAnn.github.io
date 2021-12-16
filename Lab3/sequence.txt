@@ -1,0 +1,33 @@
+@startuml
+skinparam actor {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+autonumber
+
+actor ":Админ" as user
+boundary "Сайт" as app
+entity "База данных" as mem
+boundary "Мобильное приложение" as wire
+actor ":Фотограф" as player
+
+user -> app: Ввести запрос
+app -> mem: Добавление клиента
+
+activate mem
+mem -> app: Ответ
+app -> user: Подтверждение добавления
+
+loop few min
+wire -> mem: Проверка наличия клиентов
+
+activate wire
+mem -> wire: Ответ
+end
+
+deactivate mem
+
+wire -> player: Уведомление
+deactivate wire
+@enduml
