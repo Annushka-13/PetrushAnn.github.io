@@ -1,4 +1,4 @@
-# Отчеты по лабораторным работам
+# Отчеты по лабораторным работам (осень)
 
 ## Отчет по [лабораторным работам 1-3](https://github.com/Annushka-13/PetrushAnn.github.io/wiki/Labs-1-3)
 
@@ -10,4 +10,4 @@
 
 # [Курсовой проект](https://github.com/Annushka-13/PetrushAnn.github.io/wiki/Курсовой-проект)
 
-## студента группы [ИДБ-18-08](https://docs.google.com/spreadsheets/d/1bKTqLJ_fwtBglIUNzz2MdDjdNV1_TjivVgGB1mNEjXw/edit#gid=1451005473&range=B75) Петруша А.О.
+# студента группы [ИДБ-18-08](https://docs.google.com/spreadsheets/d/1bKTqLJ_fwtBglIUNzz2MdDjdNV1_TjivVgGB1mNEjXw/edit#gid=1451005473&range=B75) Петруша А.О.
