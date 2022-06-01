@@ -20,7 +20,7 @@ actor M as "Программный_модуль"
 rectangle Система{
 usecase A as "Провести парсинг"
 usecase CH as "Выбрать файл чата"
-usecase S as "Выбрать список группы"
+usecase S as "Выбрать список студентов"
 usecase W as "Выбрать путь сохранения результата"
 (S) <. (A) #line:purple : include
 (CH) <. (A) #line:purple : include
