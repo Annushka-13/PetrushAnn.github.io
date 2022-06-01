@@ -1,0 +1,33 @@
+@startuml
+
+skinparam monochrome true
+
+actor Преподаватель as user
+participant "Интерфейс программы" as cli
+participant "Программа" as serv
+database "Excel" as base
+
+activate cli
+user -> cli: Выбрать список студентов
+user -> cli: Выбрать файл чата
+user -> cli: Выбрать путь сохранения результата
+cli -> serv: Загрузить выбранные файлы в программу
+activate serv
+serv --> cli: Файлы загружены
+deactivate serv
+cli -> user: Вывод сообщения о готовности к работе
+deactivate cli
+user -> cli: Нажать на кнопку запуска мониторинга
+activate cli
+cli -> serv: Запуск процесса парсинга
+activate serv
+serv -> base: Запись в таблицу Excel
+activate base
+base --> serv
+deactivate base
+serv --> cli: Парсинг выполнен
+deactivate serv
+cli -> user: Вывод сообщения о завершении мониторинга
+deactivate cli
+
+@enduml
