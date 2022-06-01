@@ -1,0 +1,15 @@
+@startuml
+
+skinparam BackgroundColor transparent
+skinparam componentStyle uml2
+
+[Графический интерфейс]
+[Система мониторинга]
+[Excel]
+
+[Графический интерфейс] - QT
+QT - [Система мониторинга]
+[Система мониторинга] - Python
+Python - [Excel]
+
+@enduml
