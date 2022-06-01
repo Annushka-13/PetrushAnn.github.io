@@ -1,0 +1,30 @@
+@startuml
+
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+hide circle
+hide methods
+
+class Мониторинг {
+}
+
+class Файл_истории_чата {
+   Имя отправителя
+Время отправки
+Текст сообщения
+Получатель
+}
+
+class Файл_списка_студентов {
+Номер группы
+ФИО студента
+}
+
+Мониторинг *-- Файл_истории_чата
+Мониторинг *-- Файл_списка_студентов
+
+@enduml
