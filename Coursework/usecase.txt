@@ -1,0 +1,40 @@
+@startuml
+
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+skinparam usecase {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+left to right direction
+actor P0 as "Пользователь_системы"
+actor P as "Преподаватель"
+actor M as "Программный_модуль"
+
+rectangle Система{
+usecase A as "Провести парсинг"
+usecase CH as "Выбрать файл чата"
+usecase S as "Выбрать список группы"
+usecase W as "Выбрать путь сохранения результата"
+(S) <. (A) #line:purple : include
+(CH) <. (A) #line:purple : include
+(W) <. (A) #line:purple : include
+}
+
+P -- (S)
+P -- (CH)
+P -- (W)
+P -- (A)
+(S) -- M
+(CH) -- M
+(W) -- M
+(A) -- M
+P0 <|-- P
+
+@enduml
